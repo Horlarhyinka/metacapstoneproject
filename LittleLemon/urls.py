@@ -16,8 +16,11 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+from rest_framework.authtoken import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('restaurant/', include("restaurant.urls"))
+    path('restaurant/', include("restaurant.urls")),
+    path('auth/token-auth/', views.obtain_auth_token, name="get_token"),
+    path("auth/", include("djoser.urls"))
 ]
