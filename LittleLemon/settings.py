@@ -40,7 +40,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'djoser',
     'restaurant',
-    'rest_framework.authtoken'
+    'rest_framework.authtoken',
 ]
 
 MIDDLEWARE = [
@@ -143,3 +143,4 @@ REST_FRAMEWORK ={
 djoser = {
     'LOGIN_FIELD': 'username'
 }
+

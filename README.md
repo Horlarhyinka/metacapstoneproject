@@ -7,11 +7,10 @@
 #include other djoser urls as /auth/{ url here }
 
 
-/restaurant/api/bookings/
-
-/restaurant/api/bookings/id
-/restaurant/api/menu-items/
-/restaurant/api/menu-items/id
+/api/bookings/
+/api/bookings/id
+/api/menu-items/
+/api/menu-items/id
 
 
 `credentials`
